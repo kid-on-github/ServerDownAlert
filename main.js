@@ -23,7 +23,7 @@ function main() {
     // send email notification
     function sendEmails(msg) {
       var emailAddress = 'mike@lemonshell.com'
-      var emailPhone = '7122047392@vtext.com'
+      var emailPhone = '5555555555@vtext.com'
       var subject = 'Server Status'
       MailApp.sendEmail(emailAddress, subject, msg)
       MailApp.sendEmail(emailPhone, subject, msg)
